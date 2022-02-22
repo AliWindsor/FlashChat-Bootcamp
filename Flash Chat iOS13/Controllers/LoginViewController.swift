@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
                 if let e = error {
                     print(e.localizedDescription) //localized desc will give user understandable info
                 }else{
-                    self.performSegue(withIdentifier: "loginToChat", sender: self)
+                    self.performSegue(withIdentifier: k.loginSegue, sender: self)
                 }
             
 

@@ -26,7 +26,7 @@ class RegisterViewController: UIViewController {
                 if let e = error {
                     print(e.localizedDescription) //localized desc will give user understandable info
                 }else{
-                    self.performSegue(withIdentifier: "registerToChat", sender: self)
+                    self.performSegue(withIdentifier: k.registerSegue, sender: self)
                 }
             }
         }
