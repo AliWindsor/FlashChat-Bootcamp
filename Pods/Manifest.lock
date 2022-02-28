@@ -424,6 +424,8 @@ PODS:
     - gRPC-Core/Interface (= 1.28.2)
   - gRPC-Core/Interface (1.28.2)
   - GTMSessionFetcher/Core (1.7.0)
+  - KeyboardAvoidingView (5.2.0):
+    - ViewState (>= 1.2.1)
   - leveldb-library (1.22.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -431,11 +433,15 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (2.0.0)
+  - RoutableLogger (9.1.12)
+  - ViewState (1.2.3):
+    - RoutableLogger (>= 9.1.11)
 
 DEPENDENCIES:
   - CLTypingLabel
   - Firebase/Auth
   - Firebase/Firestore
+  - KeyboardAvoidingView (~> 5.2)
 
 SPEC REPOS:
   trunk:
@@ -452,9 +458,12 @@ SPEC REPOS:
     - "gRPC-C++"
     - gRPC-Core
     - GTMSessionFetcher
+    - KeyboardAvoidingView
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - RoutableLogger
+    - ViewState
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -470,10 +479,13 @@ SPEC CHECKSUMS:
   "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  KeyboardAvoidingView: acc530b2435bba760b2270e722cb7132cf1c4d31
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  RoutableLogger: 9ad367e9a79df59c3cf5a1707ba9598ffbae8784
+  ViewState: d6492d0434d2ee6013c270c1431dbe73cc895b75
 
-PODFILE CHECKSUM: b311d8612395ea7e58de8219b43b63baf4214283
+PODFILE CHECKSUM: c54f21b3a8c8fabb587da689f00c3b9675c0898f
 
 COCOAPODS: 1.11.2

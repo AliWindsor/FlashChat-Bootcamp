@@ -10,8 +10,8 @@ import Foundation
 
 struct k {
     static let appName = "⚡️FlashChat"
-    static let cellIdentifier = "teusableCell"
-    static let cellNibName = "messageCell"
+    static let cellIdentifier = "reusableCell"
+    static let cellNibName = "MessageCell"
     static let registerSegue = "registerToChat"
     static let loginSegue = "loginToChat"
     
